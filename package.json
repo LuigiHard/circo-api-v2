@@ -12,14 +12,18 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.25.3",
-    "@strapi/plugin-users-permissions": "4.25.3",
-    "@strapi/plugin-i18n": "4.25.3",
     "@strapi/plugin-cloud": "4.25.3",
+    "@strapi/plugin-i18n": "4.25.3",
+    "@strapi/plugin-users-permissions": "4.25.3",
+    "@strapi/strapi": "4.25.3",
     "better-sqlite3": "8.6.0",
+    "mercadopago": "^2.0.11",
+    "raw-body": "^2.5.2",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "strapi-stripe": "^3.4.1",
+    "stripe": "^16.2.0",
     "styled-components": "5.3.3"
   },
   "author": {
@@ -29,7 +33,7 @@
     "uuid": "ca3f4d6a-9443-4154-b817-a0d16c6927a0"
   },
   "engines": {
-    "node": ">=18.0.0 <=20.x.x",
+    "node": "18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "Product"
+    "displayName": "Product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,36 +15,29 @@
     "title": {
       "type": "string"
     },
-    "company": {
-      "type": "string"
-    },
-    "description": {
-      "type": "blocks"
-    },
     "featured": {
       "type": "boolean"
-    },
-    "category": {
-      "type": "string"
-    },
-    "image": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
     },
     "price": {
       "type": "string"
     },
-    "shipping": {
-      "type": "boolean"
+    "company": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
     },
     "colors": {
       "type": "json"
+    },
+    "description": {
+      "type": "text"
+    },
+    "shipping": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "string"
     }
   }
 }
